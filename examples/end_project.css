@@ -1,0 +1,11 @@
+#name {
+	width: 45%;
+
+	border: 1px solid black;
+}
+
+#contact {
+	width: 50%;
+
+	border: 1px solid red;
+}
