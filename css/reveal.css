@@ -30,7 +30,7 @@ html, body, .reveal div, .reveal span, .reveal applet, .reveal object, .reveal i
 	padding: 0;
 	border: 0;
 	font-size: 100%;
-	font: inherit;
+	/*font: inherit;*/
 	vertical-align: baseline;
 }
 
@@ -1877,4 +1877,6 @@ body {
 	visibility: hidden;
 }
 
+.bold { font-weight: bold; }
+.reveal li { margin: 0.3rem 0; }
 
