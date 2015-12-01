@@ -1,11 +1,41 @@
+body {
+	width: 950px;
+	padding: 10px;
+	margin: 0 auto;
+
+	border: 1px solid gray;
+}
+
 #name {
 	width: 45%;
+	float: left;
 
 	border: 1px solid black;
 }
 
 #contact {
 	width: 50%;
+	float: right;
 
 	border: 1px solid red;
+}
+
+#left_column {
+	clear: both;
+	width: 55%;
+	float: left;
+
+	border: 1px solid purple;
+}
+
+#right_column {
+	width: 40%;
+	float: right;
+
+	border: 1px solid green;
+}
+
+footer {
+	width: 100%;
+	text-align: center;
 }
