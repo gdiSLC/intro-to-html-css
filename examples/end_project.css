@@ -15,8 +15,8 @@ header {
 	width: auto;
 	float: left;
 	text-align: right;
-	font-size: 7em;
-	line-height: 0.8em;
+	font-size: 7rem;
+	line-height: 5.3rem;
 	margin-top: 40px;
 	color: #231F20;
 
@@ -29,8 +29,8 @@ header {
 	background-color: #E7E7E9;
 	padding-top: 90px;
 	text-align: right;
-	font-size: 1.2em;
-	line-height: 1.6em;
+	font-size: 1.2rem;
+	line-height: 1.7rem;
 
 	border: 1px solid red;
 }
@@ -48,10 +48,33 @@ header {
 
 #left_column {
 	clear: both;
-	width: 55%;
+	width: 50%;
 	float: left;
 
 	border: 1px solid purple;
+}
+
+section.title {
+	font-family: cursive;
+	font-weight: bold;
+	font-size: 1.2rem;
+}
+
+section.date {
+	font-family: cursive;
+}
+
+section.block {
+	border: 1px solid #ccc;
+	background-color: #E7E7E9;
+	margin-left: 25px;
+	margin-bottom: 10px;
+	font-size: 0.8rem;
+	line-height: 1.1rem;
+}
+
+span.skill_section {
+	font-size: 1rem;
 }
 
 #right_column {
@@ -62,6 +85,7 @@ header {
 }
 
 footer {
+	clear: both;
 	width: 100%;
 	text-align: center;
 }
