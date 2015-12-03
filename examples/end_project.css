@@ -39,6 +39,15 @@ header {
 	color: #4B4849;
 }
 
+#my_title {
+	width: 40%;
+	float: right;
+	text-align: right;
+	margin-top: 16px;
+	font-size: 1.5rem;
+	color: #4B4849;
+}
+
 #divider {
 	background-color: #EA287C;
 	width: 100%;
@@ -48,7 +57,7 @@ header {
 
 #left_column {
 	clear: both;
-	width: 50%;
+	width: 62%;
 	float: left;
 
 	border: 1px solid purple;
@@ -71,6 +80,7 @@ section.block {
 	margin-bottom: 10px;
 	font-size: 0.8rem;
 	line-height: 1.1rem;
+	color: #4B4849;
 }
 
 span.skill_section {
@@ -78,10 +88,17 @@ span.skill_section {
 }
 
 #right_column {
-	width: 40%;
+	width: 300px;
 	float: right;
 
 	border: 1px solid green;
+}
+
+section.right {
+	margin: 20px 0 0 0;
+	padding: 10px;
+	text-align: justify;
+	line-height: 1.2rem;
 }
 
 footer {
