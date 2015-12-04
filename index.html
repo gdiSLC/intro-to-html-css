@@ -235,6 +235,48 @@
       				<p>"Inline"</p>
     			</section>
 
+    			<!-- External-->
+        		<section>
+	          		<h3>Connecting CSS to HTML: External/Linked</h3>
+					<pre><code>
+&lt;head>
+  &lt;link rel="stylesheet" href="styles.css">
+&lt;/head>
+					</code></pre>
+	      			<p>Shared resource for several pages.</p>
+	          		<p>Reduced ﬁle size &amp; bandwidth</p>
+	          		<p>Easy to maintain in larger projects.</p>
+	          		<p class="tomorrow-green">Preferred by coders everywhere!</p>
+        		</section>
+
+        		<!-- Embedded -->
+        		<section>
+          			<h3>Connecting CSS to HTML: Embedded</h3>
+					<pre><code>
+&lt;head>
+  &lt;style type="text/css">
+    p {
+      color: blue;
+      font-size: 12px;
+    }
+  &lt;/style>
+&lt;/head>
+					</code></pre>
+          			<p>Inside &lt;head> element.</p>
+          			<p>Uses &lt;style> tag.</p>
+          			<p>Can only be used in one html file</p>
+        		</section>
+      
+        		<!-- Inline -->
+        		<section>
+          			<h3>Connecting CSS to HTML: Inline</h3>
+					<pre><code>
+  &lt;p style="color:red">Some text.&lt;/p>
+					</code></pre>
+          			<p>Uses the HTML attribute style.</p>
+          			<p>Difficult to use in large projects</p>
+          			<p class="tomorrow-yellow">Not preferred.</p>
+        		</section>
 
 			</div>
   		<footer>
