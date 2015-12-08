@@ -349,25 +349,14 @@ body {
 		       	<!--Float: Example-->
 		       	<section>
 	       			<h3>Float: Example</h3>
-	       				<p>Below a &lt;blockquote> is floated to the left, allowing text to wrap around it on the right</p>
-	       				<img src="img/example-floatbq.png" alt="example float" />
-	       		</section>
-
-	        	<!-- Float-->
-	       		<section>
-	         		<h3>Float</h3>
-	         		<div class = "left-align">
-	          			<ul>
-	          				<li>"Floating" an element takes it in the normal flow, as far to the left or right of it's containing element as possible.</li>
-				          	<li>Any other elements, such as paragraphs or lists, will wrap around the floated element.</li>
-				          	<li>Always specify a width when floating an element, otherwise the element is likely to take up the whole page and not appear floated.</li>
-				            <li>You can specify a) whether an element is floated or not, and b) which side it ﬂoats on.</li>
-	          			</ul>
-	         		</div>
+	       			<p>"Floating" an element moves it, in the normal flow, as far to the <span style="font-weight: bold;">left</span> or <span style="font-weight: bold;">right</span> of its parent element as possible.</p>
+	       			<img src="img/example-floatbq.png" alt="example float" />
+	       			<p style="font-size: 60%;font-weight: bold;">Above a &lt;blockquote> is floated to the left, allowing text to wrap around it on the right</p>
 	       		</section>
 	       
 	       		<section>
-	         		<h3>Float</h3>
+	         		<h3>Float: Wrapping</h3>
+	       			<p style="font-weight: bold;">Any other elements, such as paragraphs or lists, will wrap around the floated element.</p>
 					<pre><code>
   .float{
      float:left;
@@ -379,15 +368,21 @@ body {
 	          			<small>Hi, I'm a yellow box with black text.<br/>
 	          			I like to hang out on the left side.</small><br/>
 	        		</div>
-	        		<div style="text-align: left;">Not floating element</div>
-	        		<div style="text-align: left;">Not floating element</div>
-	         		<div style="text-align: left;">Not floating element with wrapping Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </div>
+	        		<div style="text-align: left;font-size: 70%;">Not floating element</div>
+	        		<div style="text-align: left;font-size: 70%;">Not floating element</div>
+	         		<div style="text-align: left;font-size: 70%;">Not floating element with wrapping Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </div>
 	       		</section>
 	       
 	       		<section>
 	       			<h3>Using floats to place elements side by side</h3>	
 	       			<p>If you want two block level elements to be side by side, you need to float both elements. One left, and one right.</p>
 	       			<img src="img/example-float-column.png" />
+	       			<p style="font-size: 60%;font-weight: bold;">Always specify a width when floating an element, otherwise the element is likely to take up the whole page and not appear floated.</p>
+	       		</section>
+
+	       		<section>
+	       			<h2>Alternates to Float</h2>
+	       			<p><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Using_CSS_flexible_boxes" target="_blank">CCS3 FlexBox</a></p>
 	       		</section>
 
 
