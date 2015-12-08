@@ -385,6 +385,43 @@ body {
 	       			<p><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Using_CSS_flexible_boxes" target="_blank">CCS3 FlexBox</a></p>
 	       		</section>
 
+	       		<!-- Clear-->
+       			<section>
+         			<h3>Clear</h3>
+     				<ul>
+         				<li>Tells the element on which side (right, left, both) other elements <strong>cannot</strong> appear. </li>
+         				<li style="margin-top: 30px;">Clearing both sides makes sure ﬂoats don’t ﬂow past the clear element.</li>
+         			</ul>
+					<pre><code>
+  clear: right;
+  clear: left;
+  clear: both;
+					</code></pre>
+       			</section> 
+       
+       			<section>
+          			<h3>Clear</h3>
+          				<p style="font-size: 60%;font-weight: bold">If you had an image, div, etc. floated left, and you did not want the paragraph to appear next to it, you would add <strong>clear: left;</strong> to the paragraph.</p>
+ 					<pre><code>
+   .float{
+     float:left;
+     width:50px;
+     background:yellow;
+   }
+   .clear-left{
+     clear:left
+   }
+ 					</code></pre>
+         			<div style ="float:left;width:50px;background:yellow; color:black; ">
+		           		hi<br/>
+		           		hi<br/>
+		           		hi<br/>
+         			</div>
+         			<div style="text-align: left;">Not floating element</div>
+         			<div style="text-align: left;">Not floating element</div>
+         			<div style="clear: left;text-align: left;">Non-floating element with a style of <strong>clear: left;</strong></div>
+        		</section>
+
 	       		<!-- Font family-->
         		<section>
           			<h3>Font-family</h3>
@@ -534,7 +571,7 @@ margin: 10px 20px; /* 10 on top/bottom, 20 on right/left */
   margin: auto;
   width: 300px;
 					</code></pre>
-          			<p style="width: 300px; margin-left: auto; margin-right: 46px; border: 1px solid #ccc;">FLUSH-RIGHT</p>
+          			<p style="width: 300px; margin-left: auto; margin-right: 61px; border: 1px solid #ccc;">FLUSH-RIGHT</p>
 					<pre><code>
   margin-left: auto;
   margin-right: 5px;
