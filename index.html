@@ -331,20 +331,65 @@ body {
         		<section>
           			<h3>Inline vs Block</h3>
           			<div style="float: left;width: 50%; text-align: left;">
-              		<p>So far, we have mostly seen <span class="tomorrow-green">"block"</span> elements. They appear on the next line, like paragraphs</p>
-              		<p style="font-size: 60%;font-weight: bold;">
-          				<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Block-level_elements" target="_blank">&lt;p>, &lt;h1>, &lt;ul>, &lt;li>, almost everything else</a>
-          			</p>
-            		<br/><br/>
-              		<p>There are also <span class="tomorrow-green">"inline"</span> elements. They appear on the same line that they are written on.</p>
-              		<p style="font-size: 60%;font-weight: bold;">
-              			<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Inline_elemente" target="_blank">&lt;img>, &lt;a>, &lt;br>, &lt;span>, &lt;em>, &lt;strong>, etc.</a>
-              		</p>
-          		</div>
-          		<div style="float:right;">
-          			<img src="img/example-blockinline.png" alt="example of inline and block elements" />
-          		</div>
-        	</section>
+	              		<p>So far, we have mostly seen <span class="tomorrow-green">"block"</span> elements. They appear on the next line, like paragraphs</p>
+	              		<p style="font-size: 60%;font-weight: bold;">
+	          				<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Block-level_elements" target="_blank">&lt;p>, &lt;h1>, &lt;ul>, &lt;li>, almost everything else</a>
+	          			</p>
+	            		<br/><br/>
+	              		<p>There are also <span class="tomorrow-green">"inline"</span> elements. They appear on the same line that they are written on.</p>
+	              		<p style="font-size: 60%;font-weight: bold;">
+	              			<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Inline_elemente" target="_blank">&lt;img>, &lt;a>, &lt;br>, &lt;span>, &lt;em>, &lt;strong>, etc.</a>
+	              		</p>
+	          		</div>
+	          		<div style="float:right;">
+	          			<img src="img/example-blockinline.png" alt="example of inline and block elements" />
+	          		</div>
+        		</section>
+	       
+		       	<!--Float: Example-->
+		       	<section>
+	       			<h3>Float: Example</h3>
+	       				<p>Below a &lt;blockquote> is floated to the left, allowing text to wrap around it on the right</p>
+	       				<img src="img/example-floatbq.png" alt="example float" />
+	       		</section>
+
+	        	<!-- Float-->
+	       		<section>
+	         		<h3>Float</h3>
+	         		<div class = "left-align">
+	          			<ul>
+	          				<li>"Floating" an element takes it in the normal flow, as far to the left or right of it's containing element as possible.</li>
+				          	<li>Any other elements, such as paragraphs or lists, will wrap around the floated element.</li>
+				          	<li>Always specify a width when floating an element, otherwise the element is likely to take up the whole page and not appear floated.</li>
+				            <li>You can specify a) whether an element is floated or not, and b) which side it ﬂoats on.</li>
+	          			</ul>
+	         		</div>
+	       		</section>
+	       
+	       		<section>
+	         		<h3>Float</h3>
+					<pre><code>
+  .float{
+     float:left;
+     width:200px;
+     background:yellow;
+  }
+					</code></pre>
+	        		<div style ="float:left; text-align: left;width:200px;background:yellow; color:black; padding: 10px;">
+	          			<small>Hi, I'm a yellow box with black text.<br/>
+	          			I like to hang out on the left side.</small><br/>
+	        		</div>
+	        		<div style="text-align: left;">Not floating element</div>
+	        		<div style="text-align: left;">Not floating element</div>
+	         		<div style="text-align: left;">Not floating element with wrapping Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </div>
+	       		</section>
+	       
+	       		<section>
+	       			<h3>Using floats to place elements side by side</h3>	
+	       			<p>If you want two block level elements to be side by side, you need to float both elements. One left, and one right.</p>
+	       			<img src="img/example-float-column.png" />
+	       		</section>
+
 
 
 			</div>
