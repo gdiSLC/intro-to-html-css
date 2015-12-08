@@ -2,7 +2,7 @@ body {
 	width: 950px;
 	padding: 0 10px 10px 10px;
 	margin: 0 auto;
-	font-family: Tahoma, sans-serif;
+	font: 16px Tahoma, sans-serif;
 }
 
 header {
@@ -95,7 +95,7 @@ span.skill_section {
 
 #picture {
 	width: 300px;
-	height: 362px#;
+	height: 362px;
 }
 
 section.right {
