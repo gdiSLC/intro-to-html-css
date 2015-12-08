@@ -87,6 +87,10 @@ span.skill_section {
 	font-size: 1rem;
 }
 
+span.italic {
+	font-style: italic;
+}
+
 #right_column {
 	width: 300px;
 	float: right;
