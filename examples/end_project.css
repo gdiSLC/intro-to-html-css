@@ -33,6 +33,10 @@ header {
 	text-decoration: none;
 	color: #4B4849;
 }
+#contact a:hover, a:active {
+	text-decoration: underline;
+	color: #7D7D7D;
+}
 
 #my_title {
 	width: 335px;
