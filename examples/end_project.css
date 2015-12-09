@@ -5,10 +5,6 @@ body {
 	font: 16px Tahoma, sans-serif;
 }
 
-header {
-	overflow: hidden;
-}
-
 #name {
 	width: auto;
 	float: left;
