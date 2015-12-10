@@ -34,7 +34,7 @@ body {
 	color: #7D7D7D;
 }
 
-#my_title {
+#my-title {
 	width: 335px;
 	float: right;
 	text-align: right;
@@ -43,7 +43,7 @@ body {
 	color: #4B4849;
 }
 
-#divider {
+.divider {
 	clear:both;
 	background-color: #EA287C;
 	width: 100%;
@@ -52,7 +52,7 @@ body {
 	display: inline-block;
 }
 
-#left_column {
+#left-column {
 	clear: both;
 	width: 62%;
 	float: left;
@@ -83,7 +83,7 @@ section.block {
 	color: #4B4849;
 }
 
-span.skill_section {
+span.skill-section {
 	font-size: 1rem;
 }
 
@@ -91,7 +91,7 @@ span.italic {
 	font-style: italic;
 }
 
-#right_column {
+#right-column {
 	width: 300px;
 	float: right;
 }
