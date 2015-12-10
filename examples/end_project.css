@@ -70,10 +70,11 @@ body {
 	margin-bottom: 5px;
 }
 
-section.date {
-	font-family: cursive;
+h3.date {
+	font: normal 1rem cursive;
 	line-height: 1rem;
 	margin-bottom: 5px;
+	margin-top: 0;
 }
 
 section.block {
