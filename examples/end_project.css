@@ -34,12 +34,22 @@ body {
 	color: #7D7D7D;
 }
 
-#my-title {
+/*#my-title {
 	width: 335px;
 	float: right;
 	text-align: right;
 	margin-top: 16px;
 	font-size: 1.5rem;
+	color: #4B4849;
+}*/
+#my-title {
+	width: 335px;
+	float: right;
+	text-align: right;
+	margin-top: 16px;
+	margin-bottom: 0;
+	font-size: 1.5rem;
+	font-weight: normal;
 	color: #4B4849;
 }
 
