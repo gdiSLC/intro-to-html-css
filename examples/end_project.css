@@ -54,6 +54,9 @@ body {
 	display: inline-block;
 	border: none;
 }
+.divider.bottom-div {
+	margin-top: 20px;
+}
 
 #left-column {
 	clear: both;
@@ -107,6 +110,9 @@ body {
 #picture {
 	width: 300px;
 	height: 362px;
+}
+#picture img {
+	border-radius: 1rem;
 }
 
 .right {
