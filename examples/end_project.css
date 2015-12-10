@@ -77,7 +77,7 @@ body {
 	margin-top: 0;
 }
 
-section.block {
+.block {
 	border: 1px solid #ccc;
 	background-color: #E7E7E9;
 	margin-left: 25px;
@@ -94,7 +94,7 @@ section.block {
 	margin: 0 0 2px 0;
 }
 
-span.italic {
+.italic {
 	font-style: italic;
 }
 
@@ -108,7 +108,7 @@ span.italic {
 	height: 362px;
 }
 
-section.right {
+.right {
 	margin: 20px 0 0 0;
 	padding: 10px;
 	text-align: justify;
