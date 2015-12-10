@@ -70,7 +70,7 @@ body {
 	margin-bottom: 5px;
 }
 
-h3.date {
+.date {
 	font: normal 1rem cursive;
 	line-height: 1rem;
 	margin-bottom: 5px;
@@ -88,8 +88,10 @@ section.block {
 	color: #4B4849;
 }
 
-span.skill-section {
+.skill-section {
 	font-size: 1rem;
+	font-weight: normal;
+	margin: 0 0 2px 0;
 }
 
 span.italic {
