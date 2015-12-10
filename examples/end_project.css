@@ -10,9 +10,9 @@ body {
 	float: left;
 	text-align: right;
 	font-size: 7rem;
+	font-weight: normal;
 	line-height: 5.3rem;
-	margin-top: 55px;
-	margin-left: -7px;
+	margin: 55px 0 0 -7px;
 	color: #231F20;
 }
 
