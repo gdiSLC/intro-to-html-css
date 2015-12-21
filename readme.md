@@ -42,7 +42,7 @@ You should be able to:
  - Basic directory structure for a website
  - What is HTML & why use HTML5?
  - Basic tags such as:
- 	- <header>, <section>, <footer>, <a>, <img>, <p>, <hr>, <h1>, <span>, etc.
+ 	- &lt;header>, &lt;section>, &lt;footer>, &lt;a>, &lt;img>, &lt;p>, &lt;hr>, &lt;h1>, &lt;span>, etc.
  - Learn what HTML attributes are
  - Learn what the difference is between inline & block elements
  - What is CSS & how do I use it
