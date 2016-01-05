@@ -1,6 +1,6 @@
 # Intro to HTML and CSS Workshop
 
-Slides and materials are hosted at [GitHub](https://github.com/gdiSLC/intro-to-html-css).
+Slides and materials are hosted at [Class Slides](http://gdislc.github.io/intro-to-html-css/) & [Project we'll be building](http://gdislc.github.io/intro-to-html-css/examples/end_project.html).
 
 ## Course description
 
